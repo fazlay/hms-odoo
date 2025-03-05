@@ -8,7 +8,7 @@
     'description': """ 
     This is a custom module for hospital management system
 I""",
-    'depends': ['base','mail','product'],
+    'depends': ['base','mail','product','web'],
     'data': [
     'security/ir.model.access.csv',
     'data/sequence.xml',
@@ -17,6 +17,8 @@ I""",
     'views/appointment_line_views.xml',
     'views/patient_views.xml',
     'views/menu.xml',
+    'reports/reports.xml',
+    'reports/custom_header.xml',
        
     ],
 

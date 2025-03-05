@@ -56,6 +56,7 @@ class HospitalAppointment(models.Model):
         for rec in self:
             rec.state='done'
 
+
 class HospitalAppointmentLine(models.Model):
     _name= 'hospital.appointment.line'
     _inherit=['mail.thread']
